@@ -1,6 +1,6 @@
-# Enterprise AI Chat UI: Azure AD SSO + Portkey LLM Gateway (RS256 JWT Auth)
+# Enterprise AI Chat UI: Azure AD SSO + Prisma AIRS AI Gateway (RS256 JWT Auth)
 
-A secure, enterprise-grade AI Chat web application built with **Streamlit**, **Azure AD (Microsoft Entra ID)**, and **Portkey AI Gateway**. 
+A secure, enterprise-grade AI Chat web application built with **Streamlit**, **Azure AD (Microsoft Entra ID)**, and **Prisma AIRS AI Gateway**. 
 
 This application implements Single Sign-On (SSO), dynamically extracts user metadata (Email, Role, Department via MS Graph API), mints ephemeral **RS256 JWTs**, and passes them to Portkey for role-based LLM routing, governance, and audit logging.
 

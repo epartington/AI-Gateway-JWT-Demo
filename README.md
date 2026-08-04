@@ -103,7 +103,7 @@ This application implements Single Sign-On (SSO), dynamically extracts user meta
 Clone the repository and install dependencies:
 
 ```bash
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+git clone https://github.com/chinthakaek/AI-Gateway-JWT-Demo
 cd your-repo-name
 
 python3 -m venv .venv

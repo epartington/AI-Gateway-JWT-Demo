@@ -150,6 +150,9 @@ PRIVATE_KEY_PATH=private_key.pem
 JWKS_PATH=jwks.json
 ```
 
+This demo was created using Groq as a model provider. If the model provider is different you would need to update the provider and models accordingly within the app code as well as environment parameters. 
+
+
 ### 5. Run the Application
 
 Launch the Streamlit web server:
@@ -162,9 +165,11 @@ Navigate to `http://localhost:8501` in your browser and click **Login with Azure
 
 ---
 
-## ⚙️ Portkey Conditional Config Example
+(Optional Step) - ## ⚙️ Portkey Conditional Config Example
 
-Below is the conditional routing configuration to paste into Portkey (`strategy.mode = "conditional"`):
+Below is the conditional routing configuration to paste into Portkey for to explore routing decisions based on Metadata received with the JWT Authentication (`strategy.mode = "conditional"`):
+
+In the below config the Admin users requests are passed through with the selected model but for Standard Users regardless the model selected the model request is forwarded to groq/compound or groq/compound-mini models.
 
 ```json
 {

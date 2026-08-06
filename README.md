@@ -143,7 +143,7 @@ REDIRECT_URI=http://localhost:8501/
 PORTKEY_ORG_ID=your_portkey_org_id
 PORTKEY_WORKSPACE_SLUG=your_workspace_slug
 PORTKEY_PROVIDER=@groq
-PORTKEY_BASE_URL=[https://aigw.portkey.ai/v1](https://aigw.portkey.ai/v1)
+PORTKEY_BASE_URL=https://aigw.portkey.ai/v1
 PORTKEY_DEFAULT_CONFIG_ID=pc-your-portkey-config-id
 
 PRIVATE_KEY_PATH=private_key.pem
